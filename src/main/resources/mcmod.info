@@ -1,0 +1,15 @@
+[
+{
+  "modid": "advancedchemistry",
+  "name": "Advanced Chemistry",
+  "description": "A versatile chemistry mod with ore processing and metal disassembling! (and much more)",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://mayus.ml",
+  "updateUrl": "",
+  "authorList": ["MayusYT"],
+  "credits": "MayusYT",
+  "logoFile": "assets/advancedchemistry/logo.png",
+  "screenshots": []
+}
+]

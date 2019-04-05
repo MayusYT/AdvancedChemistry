@@ -1,0 +1,27 @@
+{
+  "results": [
+    {
+      "result": "brause_powder",
+      "quantity": 1
+    },
+    {
+      "result": "water",
+      "quantity": 3
+    },
+    {
+      "result": "carbon_dioxide",
+      "quantity": 3
+    }
+  ],
+  "equation": "citric_acid + baking_soda",
+  "ingredients": [
+    {
+      "ingredient": "citric_acid",
+      "quantity": 1
+    },
+    {
+      "ingredient:": "baking_soda",
+      "quantity": 3
+    }
+  ]
+}
