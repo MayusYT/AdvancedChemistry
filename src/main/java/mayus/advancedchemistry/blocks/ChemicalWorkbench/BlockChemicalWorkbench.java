@@ -12,15 +12,17 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class BlockChemicalWorkbench extends Block {
 
+    //Creation of a constant for saving texture path and ingame name
     public static final ResourceLocation CHEMICAL_WORKBENCH = new ResourceLocation(AdvancedChemistry.MODID, "chemical_workbench");
+
 
     public BlockChemicalWorkbench() {
         super(Material.IRON);
-        setHardness(4f);
-        setRegistryName(CHEMICAL_WORKBENCH);
         setTranslationKey("chemical_workbench");
+        setRegistryName(CHEMICAL_WORKBENCH);
         setHarvestLevel("pickaxe", 1);
         setCreativeTab(AdvancedChemistry.creativeTab);
+        setHardness(5.0F);
     }
 
     /**

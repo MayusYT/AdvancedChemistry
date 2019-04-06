@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "advancedchemistry:items/citric_acid"
+    "layer0": "advancedchemistry:items/powder"
   }
 }

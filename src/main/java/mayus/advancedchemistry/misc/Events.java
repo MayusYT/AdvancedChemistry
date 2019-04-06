@@ -11,8 +11,10 @@ public class Events {
 
     @SubscribeEvent
     static void applyCustomTooltips(ItemTooltipEvent itemTooltipEvent) {
-        if(itemTooltipEvent.getItemStack().getItem() == Items.SUGAR) {
-            itemTooltipEvent.getToolTip().add("C₁₂H₂₂O₁₁");
+        if (itemTooltipEvent.getEntityPlayer() != null) {
+            if (itemTooltipEvent.getItemStack().getItem() == Items.SUGAR) {
+                itemTooltipEvent.getToolTip().add("C₁₂H₂₂O₁₁");
+            }
         }
     }
 }

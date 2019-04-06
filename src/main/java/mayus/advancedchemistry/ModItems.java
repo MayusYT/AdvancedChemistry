@@ -35,7 +35,6 @@ public class ModItems {
         registry.register(new ItemBakingSoda());
         registry.register(new ItemCitricAcid());
         registry.register(new ItemBrausePowder());
-
         registry.register(new ItemBlock(ModBlocks.blockChemicalWorkbench).setRegistryName(BlockChemicalWorkbench.CHEMICAL_WORKBENCH));
     }
 

@@ -2,6 +2,7 @@ package mayus.advancedchemistry;
 
 
 import mayus.advancedchemistry.blocks.ChemicalWorkbench.BlockChemicalWorkbench;
+
 import net.minecraft.block.Block;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
@@ -14,7 +15,6 @@ public class ModBlocks {
     public static BlockChemicalWorkbench blockChemicalWorkbench;
 
 
-
     @SideOnly(Side.CLIENT)
     public static void initModels() {
         blockChemicalWorkbench.initModel();
@@ -23,7 +23,6 @@ public class ModBlocks {
 
     public static void register(IForgeRegistry<Block> registry) {
         registry.register(new BlockChemicalWorkbench());
-
 
     }
 
