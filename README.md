@@ -9,4 +9,4 @@
 * Play around with different chemicals
 
 
-## More is coming verrrry soon! If you have any feature requests, I'm looking forward to your issue!
+## More is coming verrrry soon (TM)! If you have any feature requests, I'm looking forward to your issue!
