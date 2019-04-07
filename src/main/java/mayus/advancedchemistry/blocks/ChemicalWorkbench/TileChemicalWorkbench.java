@@ -6,12 +6,15 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.Container;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.ITickable;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.wrapper.CombinedInvWrapper;
 
 import javax.annotation.Nonnull;
 
 public class TileChemicalWorkbench extends TileEntity implements IGuiTile {
+
+
 
     @Override
     public Container createContainer(EntityPlayer player) {
@@ -59,6 +62,5 @@ public class TileChemicalWorkbench extends TileEntity implements IGuiTile {
     };
 
     private CombinedInvWrapper combinedHandler = new CombinedInvWrapper(inputHandler, outputHandler);
-
 
 }

@@ -3,6 +3,7 @@ package mayus.advancedchemistry.blocks.ChemicalWorkbench;
 import mayus.advancedchemistry.AdvancedChemistry;
 import mayus.advancedchemistry.misc.IGuiTile;
 import net.minecraft.block.Block;
+import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -50,9 +51,9 @@ public class BlockChemicalWorkbench extends Block {
             return true;
         }
         TileEntity te = world.getTileEntity(pos);
-//        if (!(te instanceof IGuiTile)) {
-//            return false;
-//        }
+        if (!(te instanceof IGuiTile)) {
+            return false;
+        }
         if(!player.isSneaking()) {
             System.out.println("openGui");
             player.openGui(AdvancedChemistry.instance, 0, world, pos.getX(), pos.getY(), pos.getZ());
@@ -67,5 +68,12 @@ public class BlockChemicalWorkbench extends Block {
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
         return new TileChemicalWorkbench();
+    }
+
+
+    // It really has to be the one with IBlockstate!
+    @Override
+    public boolean hasTileEntity(IBlockState state) {
+        return true;
     }
 }

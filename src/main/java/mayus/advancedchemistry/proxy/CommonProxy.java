@@ -5,6 +5,8 @@ import com.google.common.util.concurrent.ListenableFuture;
 import mayus.advancedchemistry.AdvancedChemistry;
 import mayus.advancedchemistry.ModBlocks;
 import mayus.advancedchemistry.ModItems;
+import mayus.advancedchemistry.blocks.ChemicalWorkbench.BlockChemicalWorkbench;
+import mayus.advancedchemistry.blocks.ChemicalWorkbench.TileChemicalWorkbench;
 import mayus.advancedchemistry.misc.GuiHandler;
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
@@ -19,6 +21,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import javax.annotation.Nullable;
 
