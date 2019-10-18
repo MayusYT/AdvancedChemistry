@@ -1,0 +1,9 @@
+ 
+itemGroup.advancedchemistry=Advanced Chemistry
+
+item.baking_soda.name=Backpulver
+item.citric_acid.name=Citronensäure
+item.brause_powder.name=Brausepulver
+
+item.tooltip.baking_soda.alt=Natriumhydrogencarbonat
+item.tooltip.brause_powder.alt=Ein sehr deutsches Pulver
